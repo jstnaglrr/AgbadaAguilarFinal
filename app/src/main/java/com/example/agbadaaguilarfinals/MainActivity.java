@@ -30,14 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         initComponents();
 
-        mLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                logout();
-                startActivity(new Intent(MainActivity.this, LogInActivity.class));
-            }
-        });
-
         if(savedInstanceState == null){
             getSupportFragmentManager().beginTransaction().replace(R.id.main_frameLayout, new HomeFragment()).commit();
         }
@@ -60,6 +52,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                logout();
+                startActivity(new Intent(MainActivity.this, LogInActivity.class));
+            }
+        });
     }
 
     private void logout(){
@@ -69,6 +68,6 @@ public class MainActivity extends AppCompatActivity {
     private void initComponents(){
         bottomNav = findViewById(R.id.main_bottom_nav);
         frameLayout = findViewById(R.id.main_frameLayout);
-        mLogout = (Button) findViewById(R.id.btnLogout);
+        mLogout = findViewById(R.id.btnLogout);
     }
 }
