@@ -52,13 +52,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                logout();
-                startActivity(new Intent(MainActivity.this, LogInActivity.class));
-            }
-        });
     }
 
     private void logout(){
