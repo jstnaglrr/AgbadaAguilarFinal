@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bcd4e6">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingTop="15dp"
+        android:text="Contacts"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:id="@+id/iconLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:id="@+id/icon"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="20dp"
+                android:src="@drawable/contact" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="20dp"
+                android:src="@drawable/contact" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="20dp"
+                android:src="@drawable/contact" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="20dp"
+                android:src="@drawable/contact" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="20dp"
+                android:src="@drawable/contact" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingTop="10dp"
+                android:text="User 1"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingTop="10dp"
+                android:text="User 2"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingTop="10dp"
+                android:text="User 3"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingTop="10dp"
+                android:text="User 4"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingTop="10dp"
+                android:text="User 5"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment"
+    android:background="#bcd4e6">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/iconLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:id="@+id/icon"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="13dp"
+                android:src="@drawable/account_settings" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/contact" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="11dp"
+                android:src="@drawable/notification" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="12dp"
+                android:src="@drawable/privacy" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="15dp"
+                android:src="@drawable/block_user" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="15dp"
+                android:src="@drawable/report" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="15dp"
+                android:src="@drawable/help" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="15dp"
+                android:src="@drawable/account" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Account Settings"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Avatar"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Notification and Sounds"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Privacy"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Blocked Accounts"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Report Problem"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Help"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Switch Account"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconLayout"
+        android:text="Logout" />
+
+</RelativeLayout>

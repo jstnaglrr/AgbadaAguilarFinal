@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "52631103928",
+    "project_id": "agbadaaguilarfinals",
+    "storage_bucket": "agbadaaguilarfinals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52631103928:android:541681c68f91ff80cd074d",
+        "android_client_info": {
+          "package_name": "com.example.agbadaaguilarfinals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52631103928-bb9rlvguh8c0tgse2838r3upb0pggmsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2kcQvYqhjcLFFvcVCEYs5jtnNcGvDzgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52631103928-bb9rlvguh8c0tgse2838r3upb0pggmsl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "52631103928-ka4j4k8mcjgq525b8hk53iaer8am13n8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.agbadaaguilarfinals"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
